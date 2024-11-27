@@ -8,11 +8,6 @@
     box-sizing: border-box;
 }
 
-.column {
-    border: 1px solid #000;
-    min-height: 4rem;
-}
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -23,25 +18,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
-.hidden-heading {
-    display: none;
-}
-
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #399ed8;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #0f015f;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,8 +47,30 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #043619;
 }
+
+/* Navbar */
+.ci--hamburger-lg {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%2322130c' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 17h18M3 12h18M3 7h18'/%3E%3C/svg%3E");
+  }
+  
+  .dropdown-menu {
+    background-color: #85a6a6;
+  }
+
+/* Main Content */
+main {
+    background-color: aquamarine;
+    flex: 1 0 auto;
+}
+
+
 
 /* Footer */
 #social-networks {
