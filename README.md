@@ -13,16 +13,16 @@
  Welcome to my first Project! [Nobesity](https://cbh-23.github.io/no-obesity/)
 
 ## Table of Contents:
- - [The Why](https://github.com/cbh23/noobesity#the-why)
- - [(UX) User Exerience](https://github.com/cbh23/noobesity#ux-user-experiance)
- - [Design](https://github.com/cbh23/noobesity#design)
- - [Website Features](https://github.com/cbh23/noobesity#web-features)
- - [Tablet/Mobile View](https://github.com/cbh23/noobesity#tablet-mobile-view)
- - [Future Features](https://github.com/cbh23/noobesity#future-features)
- - [Technology Used](https://github.com/cbh23/noobesity#technology-used)
- - [Deployment](https://github.com/cbh23/noobesity#deployment)
- - [Testing](https://github.com/cbh23/noobesity#testing)
- - [Credits](https://github.com/cbh23/noobesity#credits)
+ - [The Why](#the-why)
+ - [(UX) User Exerience](#ux-user-experiance)
+ - [Design](#design)
+ - [Website Features](#web-features)
+ - [Tablet/Mobile View](#tablet-mobile-view)
+ - [Future Features](#future-features)
+ - [Technology Used](#technology-used)
+ - [Deployment](#deployment)
+ - [Testing](#testing)
+ - [Credits](#credits)
 
 
 ## The Why:
