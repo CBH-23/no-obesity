@@ -4,7 +4,7 @@
 
 ### HTML/CSS Essentials - User Sentric, Static Front-End Website
 
-![Site example on multiple devices.]()
+![Site example on multiple devices.](assets/images/Different%20devices.PNG)
 
 [Click Here to view the Live Project.]()
 
@@ -47,3 +47,6 @@ Having a background in children's nursing, the reasons why are; to create awaren
 
 ## (UX) User Experience:
 Nobesity, targets parents, children, childminders, and schools, aiming to foster a community committed to healthier lifestyles and combating childhood obesity.
+
+## TBC
+
