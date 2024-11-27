@@ -15,14 +15,31 @@
 ## Table of Contents:
  - [The Why](#the-why)
  - [(UX) User Exerience](#ux-user-experiance)
+    - [User Stories]
+    - [Skeleton (Wireframes)]
  - [Design](#design)
+    - [Typography]
+    - [Colour scheme]
+    - [Imagery]
  - [Website Features](#web-features)
  - [Tablet/Mobile View](#tablet-mobile-view)
  - [Future Features](#future-features)
  - [Technology Used](#technology-used)
+    - [Languages]
+    - [Frameworks]
+    - [Libraries]
+    - [Programs]
  - [Deployment](#deployment)
+    - [Step by step process for deploying to GitHub Pages]
  - [Testing](#testing)
+    - [Validation of HTML/CSS]
+    - [Lighthouse Audits]
+    - [Bugs]
  - [Credits](#credits)
+    - [Content References]
+    - [Media References]
+    - [Acknowledgements]
+
 
 
 ## The Why:
