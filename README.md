@@ -6,9 +6,7 @@
 
 ![Site example on multiple devices.](assets/images/Different%20devices.PNG)
 
-[Click Here to view the Live Project.]()
-
-[Click here to view the Repository.](_)
+[Click here to view the Repository.](https://github.com/CBH-23/no-obesity)
 
  Welcome to my first Project! [Nobesity](https://cbh-23.github.io/no-obesity/)
 
@@ -48,5 +46,7 @@ Having a background in children's nursing, the reasons why are; to create awaren
 ## (UX) User Experience:
 Nobesity, targets parents, children, childminders, and schools, aiming to foster a community committed to healthier lifestyles and combating childhood obesity.
 
-## TBC
+## Wireframe and miro:
+[Miro](https://miro.com/welcomeonboard/Q1kvblorL013UEdjMUMzOExJZjFMdEhpdXc1L01YVnZlNUxkSTlBS1I1aDBsUEFaSkM4VWxZbVVyUnowMFBGdHc0aXFSNmJHUDRHMThsVllBalBoaVJ5cng3K2grZ0llM0dBSXNjaGNkSTFTTS85S0k1U1VCZXJCQXAxV1BaRkshZQ==?share_link_id=712833981609)
+[Wireframe](assets/images/Wireframe.jpg)
 
