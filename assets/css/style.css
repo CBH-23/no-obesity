@@ -8,13 +8,17 @@
     box-sizing: border-box;
 }
 
+.element { display: none; }
+
+@media screen and (min-width: 992px) { .element { display: block; } }
+
 /* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #034e61;
     font-family: 'Lato', sans-serif;
 }
 
@@ -42,7 +46,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -58,11 +62,11 @@ header a {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%2322130c' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 17h18M3 12h18M3 7h18'/%3E%3C/svg%3E");
-  }
-  
-  .dropdown-menu {
+}
+
+.dropdown-menu {
     background-color: #85a6a6;
-  }
+}
 
 /* Main Content */
 main {
