@@ -13,26 +13,82 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f8fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #05668d;
+      color: white;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
     .title-logo {
       display: flex;
       align-items: center;
     }
     .title-logo img {
-      height: 30px;
+      height: 40px;
       margin-right: 10px;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    #hero {
+      background: linear-gradient(to right, #a8edea, #fed6e3);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    #cover-text h2 {
+      font-weight: bold;
+      color: #034e61;
+    }
+
+    .accordion-button {
+      background-color: #f1f1f1;
+      font-weight: 500;
+    }
+
+    .accordion-body h4 {
+      color: #034e61;
+    }
+
+    footer {
+      background-color: #05668d;
+      color: white;
+    }
+
+    #social-networks i {
+      color: white;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    #social-networks i:hover {
+      color: #ffd166;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <a href="index.html">
+  <a href="index.html" class="text-decoration-none text-white">
     <div class="title-logo">
       <img src="assets/images/Nobesity Logo.jpg" alt="Logo">
       <h1 id="logo">Nobesity</h1>
     </div>
   </a>
-  <nav class="navbar navbar-expand-md justify-content-center">
+  <nav class="navbar navbar-expand-md navbar-dark">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-list-6">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -54,30 +110,26 @@
   </nav>
 </header>
 
-<main>
-  <section id="hero" class="text-center container my-4">
-    <img src="assets/images/Healthy Kids.jpg" alt="Healthy Kids" width="560" height="415" class="img-fluid">
+<main class="container mt-4">
+  <section id="hero" class="text-center">
+    <img src="assets/images/Healthy Kids.jpg" alt="Healthy Kids" class="img-fluid mb-3 rounded">
     <div id="cover-text">
       <h2>Say No to Children's Obesity</h2>
       <hr>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/gQK4vj1Lzlg?si=ZBPTxD9_QKFwEfah"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-      <hr>
+      <div class="ratio ratio-16x9 mb-3">
+        <iframe src="https://www.youtube.com/embed/gQK4vj1Lzlg?si=ZBPTxD9_QKFwEfah" title="YouTube video player" allowfullscreen></iframe>
+      </div>
       <h3>Childhood obesity can lead to serious health issues</h3>
       <hr>
     </div>
   </section>
 
-  <section id="reasons" class="container my-4">
-    <h2>Why learn about children's obesity?</h2>
-
+  <section id="reasons" class="my-4">
+    <h2 class="text-center mb-4">Why learn about children's obesity?</h2>
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h3 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            aria-expanded="true" aria-controls="collapseOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             Benefits Holistically
           </button>
         </h3>
@@ -88,11 +140,9 @@
           </div>
         </div>
       </div>
-
       <div class="accordion-item">
         <h3 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-            aria-expanded="false" aria-controls="collapseTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             Exercise and Physical Activity
           </button>
         </h3>
@@ -103,11 +153,9 @@
           </div>
         </div>
       </div>
-
       <div class="accordion-item">
         <h3 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-            aria-expanded="false" aria-controls="collapseThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             Benefits Mental Health
           </button>
         </h3>
@@ -118,11 +166,9 @@
           </div>
         </div>
       </div>
-
       <div class="accordion-item">
         <h3 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-            aria-expanded="false" aria-controls="collapseFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             You Are Not Alone <strong> SPEAK UP!</strong>
           </button>
         </h3>
