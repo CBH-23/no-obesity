@@ -1,90 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support Services for Childhood Obesity</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Nobesity, Food, Families, children, community, healthier lifestyles, childhood obesity.">
+  <meta name="keywords" content="Children's obesity, Nobesity, Healthier lifestyles, childhood obesity, Families, Food">
+  <title>Nobesity</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* Custom mobile nav styling */
-    @media (max-width: 768px) {
-      .navbar-collapse {
-        background-color: #f8f9fa;
-        padding: 1rem;
-        border-top: 1px solid #dee2e6;
-      }
-      .navbar-nav .nav-item {
-        margin-bottom: 0.5rem;
-      }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f8fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #05668d;
+      color: white;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .title-logo {
+      display: flex;
+      align-items: center;
+    }
+    .title-logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    #hero {
+      background: linear-gradient(to right, #a8edea, #fed6e3);
+      padding: 2rem;
+      border-radius: 10px;
+    }
+
+    #cover-text h2 {
+      font-weight: bold;
+      color: #034e61;
+    }
+
+    .accordion-button {
+      background-color: #f1f1f1;
+      font-weight: 500;
+    }
+
+    .accordion-body h4 {
+      color: #034e61;
+    }
+
+    footer {
+      background-color: #05668d;
+      color: white;
+    }
+
+    #social-networks i {
+      color: white;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    #social-networks i:hover {
+      color: #ffd166;
     }
   </style>
 </head>
 <body>
 
-<header class="d-flex justify-content-between align-items-center p-2">
-  <a href="index.html" class="d-flex align-items-center text-decoration-none">
-    <img src="assets/images/Nobesity Logo.jpg" alt="Logo" style="height: 40px; margin-right: 10px;">
-    <h1 id="logo" class="m-0">Nobesity</h1>
+<header>
+  <a href="index.html" class="text-decoration-none text-white">
+    <div class="title-logo">
+      <img src="assets/images/Nobesity Logo.jpg" alt="Logo">
+      <h1 id="logo">Nobesity</h1>
+    </div>
   </a>
-  <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-list-6" aria-controls="navbar-list-6" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav class="navbar navbar-expand-md navbar-dark justify-content-between">
+    <div></div> <!-- empty left space to push toggler to the right -->
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-list-6">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbar-list-6">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Children's Obesity</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="childrens-obesity.html">What is Children's Obesity?</a></li>
+            <li><a class="dropdown-item" href="Signpostage.html">Where to find help?</a></li>
+            <li><a class="dropdown-item" href="contact-us.html">Contact/Report to Us</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="forum.html">Community Forum</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
-<nav class="navbar navbar-expand-md">
-  <div class="collapse navbar-collapse justify-content-end" id="navbar-list-6">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Children's Obesity</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="childrens-obesity.html">What is Children's Obesity?</a></li>
-          <li><a class="dropdown-item active" href="Signpostage.html">Where to find help?</a></li>
-          <li><a class="dropdown-item" href="contact-us.html">Contact/Report to Us</a></li>
-        </ul>
-      </li>
-      <li class="nav-item"><a class="nav-link" href="forum.html">Community Forum</a></li>
-      <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+<main class="container mt-4">
+  <section id="hero" class="text-center">
+    <img src="assets/images/Healthy Kids.jpg" alt="Healthy Kids" class="img-fluid mb-3 rounded">
+    <div id="cover-text">
+      <h2>Say No to Children's Obesity</h2>
+      <hr>
+      <div class="ratio ratio-16x9 mb-3">
+        <iframe src="https://www.youtube.com/embed/gQK4vj1Lzlg?si=ZBPTxD9_QKFwEfah" title="YouTube video player" allowfullscreen></iframe>
+      </div>
+      <h3>Childhood obesity can lead to serious health issues</h3>
+      <hr>
+    </div>
+  </section>
 
-<main class="container mt-5 pt-5">
-  <h2 class="mb-4">Find the Right Support Services</h2>
-  <p>
-    Below are trusted resources to help parents, carers, and professionals find support and guidance for managing childhood obesity and promoting healthy lifestyles.
-  </p>
-
-  <div class="bg-white border-start border-4 border-primary p-3 my-3 shadow-sm">
-    <h5><a href="https://www.nhs.uk/conditions/obesity-in-children/" target="_blank">NHS – Childhood Obesity</a></h5>
-    <p>The NHS provides comprehensive advice on childhood obesity, including symptoms, causes, treatment options, and when to seek medical help.</p>
-  </div>
-
-  <div class="bg-white border-start border-4 border-primary p-3 my-3 shadow-sm">
-    <h5><a href="https://www.nhs.uk/healthier-families/" target="_blank">NHS – Healthier Families Campaign</a></h5>
-    <p>This site offers fun and practical tips for families to eat well and move more, including meal ideas and physical activity suggestions for children.</p>
-  </div>
-
-  <div class="bg-white border-start border-4 border-primary p-3 my-3 shadow-sm">
-    <h5><a href="https://www.gov.uk/government/publications/childhood-obesity-a-plan-for-action" target="_blank">UK Government – Childhood Obesity Plan</a></h5>
-    <p>Details government strategies and policies aimed at reducing obesity rates among children and young people in England.</p>
-  </div>
-
-  <div class="bg-white border-start border-4 border-primary p-3 my-3 shadow-sm">
-    <h5><a href="https://www.nice.org.uk/guidance/ph47" target="_blank">NICE Guidelines – Obesity Prevention (PH47)</a></h5>
-    <p>Clinical guidelines from the National Institute for Health and Care Excellence (NICE) on the prevention of obesity in adults and children.</p>
-  </div>
-
-  <div class="bg-white border-start border-4 border-primary p-3 my-3 shadow-sm">
-    <h5><a href="https://www.nhs.uk/mental-health/" target="_blank">NHS – Mental Health Support for Children</a></h5>
-    <p>Support services for children's mental health, which can often be impacted by obesity or related issues such as body image and self-esteem.</p>
-  </div>
-
-  <footer class="mt-5">
-    <p><strong>Note:</strong> All external links open in a new tab. Please consult a healthcare professional for personalized medical advice.</p>
-  </footer>
+  <section id="reasons" class="my-4">
+    <h2 class="text-center mb-4">Why learn about children's obesity?</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h3 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Benefits Holistically
+          </button>
+        </h3>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4>Healthier Lifestyles <i class="fa-solid fa-heart-pulse"></i></h4>
+            Childhood obesity can lead to serious health issues and negatively affect overall well-being.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Exercise and Physical Activity
+          </button>
+        </h3>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4>Keeping Fit <i class="fa-solid fa-dumbbell"></i></h4>
+            Maintaining fitness and avoiding obesity are crucial for healthy development and long-term health.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Benefits Mental Health
+          </button>
+        </h3>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4>Fly Through Childhood <i class="fa-brands fa-fly"></i></h4>
+            Avoiding obesity benefits mental health by boosting self-esteem and reducing anxiety.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            You Are Not Alone <strong> SPEAK UP!</strong>
+          </button>
+        </h3>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4>Communicate <i class="fa-solid fa-globe"></i></h4>
+            Connect with other parents facing challenges—you're not alone.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="text-center py-4">
@@ -97,6 +195,7 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
