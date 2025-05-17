@@ -156,3 +156,27 @@ footer {
         padding: 1rem;
     }
 }
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #034e61;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+  }
+
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+}
